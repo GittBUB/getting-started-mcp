@@ -10,9 +10,14 @@
 
 **MCP SETTINGS**\
 When you're getting started with MCP you can configure MCP servers for one fo the following:
-1. **Your User Settings** - This makes the configuration available to all workspaces you open in VS Code on YOUR computer.  
-2. **Repository Settings** - Sharing MCP servers with ANY COLLABORATOR who opens the repository in Visual Studio Code.
+1. **Your User Settings** - This makes the configuration available to all workspaces you open in VS Code on YOUR computer
+2. **Repository Settings** - Sharing MCP servers with ANY COLLABORATOR who opens the repository in Visual Studio Code
 
 
 **Which should you use?**\
 When working with repositories belonging to an Org or Enterprise where you are collaborating on code with other developers, you should always configure MCP in the respository settings. This ensures all contributors use the same collaborative protocol and benefit from MCP’s features.
+
+**How do you set MCP setting in a repository?**\
+1. If it does not already exits, create a directory in your repository called `.vscode`
+2. Create a file in `.vscode` called `mcp.json`
+3. Add the following:
